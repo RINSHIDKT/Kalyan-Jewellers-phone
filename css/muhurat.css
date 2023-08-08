@@ -1,0 +1,394 @@
+             /* FIRST NAVIGATION */
+
+.firstnav{
+    font-size: 11px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a{
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav i{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+}
+
+            /* SECOND NAVIGATION */
+
+.secondnav img{
+     width: 30%;
+}  
+.secondcontent span{
+    color: gray;
+    font-weight: bold;
+    margin: 20px;
+} 
+.secondcontent p{
+    color: gray;
+    font-weight: bold;
+    color: red;
+}
+.secondcontent span:hover{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+
+               /* MAIN IMAGE */
+
+.mainimg img{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.muhuratcontmain{
+    background-color: #f7d8b2;
+    height: 50px;
+}
+.muhucontbold a{
+    color: #91573d;;
+    font-weight: bold;
+}
+.muhucontbold{
+    margin-left: 9.5%;
+}
+
+                /* EXCLUSIVE JEWELLERY */
+
+.exclusive{
+    text-align: center;
+}               
+.exclusive h1{
+    text-align: center;
+}
+.exclusive h2{
+    border-left: 1px solid black;
+    height: 80px;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+.exclusive p{
+    font-weight: bold;
+    color: gray;
+    text-align: justify;
+    text-align: center;
+    margin: 50px;
+}
+.exclusive button{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 1px solid black;
+}
+
+            /* MUHURAT IMAGES */
+
+.container{
+    padding-top: 30px;
+    position: relative;
+}
+.image{
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.kk:hover .image {
+    filter: brightness(0.3);
+}
+.kk:hover .middle {
+    opacity: 1;
+}
+.text {
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+       /* GRAY DIV */
+
+       .graydiv{
+        background-color: #e6e7e2;
+        display: flex;
+        height: 150px;
+    }
+    .graydivcont{
+        padding-top: 2%;
+        display: flex;
+        margin: auto;
+        gap: 3px;
+    }
+    .graydivcont p{
+        border: 1px solid transparent;
+        background-color: white;
+        font-size: 13px;
+        font-weight: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    .btninputt i{
+        font-size: 25px;
+        border: 2px solid transparent;
+        background-color: red;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 30px;
+    }
+    .graydivcont i:hover{
+        color: black;
+    }
+    .btninputt input{
+        font-size: 14px;
+        padding-top: 4%;
+        padding-bottom: 1%;
+        border: none;
+    }
+    
+            /* FOOTER */
+            
+    .footer{
+        display: flex;
+        height: 300px;
+    }
+    .footmain1{
+        display: flex;
+    }
+    .footsub1{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 3%;
+        margin-left: 8%;
+    }
+    .dropdown1 span{
+        color: red;
+    }
+    .dropdown1{
+        width: fit-content;
+        border: 1px solid red;
+    }
+    .facwats{
+        padding-top: 13px;
+        gap: 5px;
+        display: flex;
+        width: 20%;
+    }
+    .facwats i{
+        width: 12%;
+        height: 18px;
+        text-align: center;
+        border: 1px solid transparent;
+        padding-top: 2px;
+        border-radius: 100%;
+        background-color: red;
+        color: white;
+        font-size: 12px;
+    }
+    .email{
+        color: red;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    .number{
+        color: red;
+        padding-top: 10px;
+        width: 17%;
+        font-size: 14px;
+    }
+    .number i{
+        border: 1px solid red;
+        border-radius: 100%;
+        width: 15%;
+        text-align: center;
+    }
+    .footsub2{
+        width: 50%;
+        padding-top: 2%;
+        margin-left: 300px;
+    }
+    .lastsubmit button{
+        margin-top: 2%;
+        margin-left: 66%;
+        color: red;
+        border-color: red;
+    }
+    .namemobileemail input{
+        margin-bottom: 4%;
+        width: 80%;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    .namemobileemail p{
+        font-weight: bold;
+    }
+    .btnfeedback a{
+        width: 80%;
+        text-align: start;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: white;
+        color: gray;
+    }
+    .footabout{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 5%;
+    }
+    .footabout p{
+        height: 5px;
+    }
+    .footabout div{
+        margin-left: 30px;
+        border-left: 1px solid black;
+    }
+    .footabout p{
+        padding-left: 50px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+           /* UTUBE VIDEO */
+
+.framemain{
+    text-align: center;
+}
+.framemain iframe{
+    width: 80%;
+}
+
+        /* MEDIA QUERY */
+
+        @media (min-width:300px) and (max-width:576.98px){
+            .firstnav{
+                font-size: 9px;
+                display: inline;
+        }
+           .rightnav i{
+                padding-top: 5px;
+                width: 20px;
+                height: 20px;
+                font-size: 100%;
+        }
+        .graydivcont{
+            padding-top: 2%;
+            display: inline;
+            margin: auto;
+            gap: 3px;
+        }
+        .btninputt input{
+            width: 86.6%;
+            padding-top: 3%;
+        }
+        .footsub1{
+            display: inline;
+            margin-left: 20%;
+        }
+        .dropdown1{
+            display: flex;
+            width: fit-content;
+            border: 1px solid red;
+        }
+        .dropdown1 span{
+            margin-left: auto;
+            color: red;
+        }
+        .footer{
+            display: inline;
+        }
+        .footsub2{
+            width: 90%;
+            text-align: center;
+            padding-top: 470px;
+            margin-left: 7%;
+        }
+        .number{
+            width: 50%;
+            margin-left: 20%;
+        }
+        .email{
+            width: 50%;
+            margin-left: 12%;
+        }
+        .email span{
+            text-align: center;
+        }
+        .facwats{
+            width: 50%;
+            margin-left: 20%;
+        }
+        .facwats i{
+            width: 50%;
+        }
+        .footabout div{
+            text-align: center;
+            margin-left: 0px;
+            border-left: 0;
+        }
+        .lastsubmit button{
+            margin-top: 2%;
+            margin-left: 5%;
+            margin-bottom: 30px;
+            color: red;
+            border-color: red;
+        }
+        .framemain iframe{
+            width: 80%;
+        }
+        }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+/* .muhuratimgbottom1 img{
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.muhuratimgbottom2 img{
+    padding-bottom: 5%;
+}
+.muhuratimgbottom3 img{
+    padding-bottom: 20%;
+} */

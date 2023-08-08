@@ -1,0 +1,750 @@
+             /* FIRST NAVIGATION */
+
+.firstnav{
+    font-size: 11px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a{
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav i{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+}
+
+            /* SECOND NAVIGATION */
+
+.secondnav img{
+     width: 30%;
+}  
+.secondcontent span{
+    color: gray;
+    font-weight: bold;
+    margin: 20px;
+} 
+.secondcontent p{
+    color: gray;
+    font-weight: bold;
+    color: red;
+}
+.secondcontent span:hover{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+
+               /* MAIN IMAGE */
+
+.mainimg img{
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    width: 50%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content p{
+    letter-spacing: 3px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.content h1{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    letter-spacing: 4px;
+}
+.content h2{
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin: auto;
+}
+
+            /* CONT SECOND */
+
+.contsecond{
+    background-color: #fdecf2;
+    width: 100%;
+    height: auto;
+}   
+.contsecond h1{
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contsecond p{
+    border-bottom: 1px solid black;
+    width: 12%;
+    margin: auto;
+}
+
+
+            /* MOSTIMG */
+
+.container{
+    padding-top: 30px;
+    position: relative;
+}
+.image{
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.kk:hover .image {
+    filter: brightness(0.3);
+}
+.kk:hover .middle {
+    opacity: 1;
+}
+.text {
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.mostcontents h1{
+    font-size: 20px;
+}
+.mostcontents h3{
+    border-bottom: 2px solid black;
+    width: 45%;
+    margin: auto;
+}
+.mostcontents h2{
+    font-size: 19px;
+    text-align: center;
+}
+
+           /* NEW THIS MONTH */
+
+.secondmainimg img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    padding-top: 3%;
+}
+.mostpop h2{
+    align-items: center;
+}
+
+            /* CAROUSEL */
+
+.maincarousel{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.caroselwidth div{
+    width: 90%;
+    margin: auto;
+}
+.carocontent h1{
+    border: 1px solid red;
+}
+.caroborder div{
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    margin: 1%;
+    text-align: center;
+}
+.caroborder div:hover{
+    color: white;
+    background-color: #253953;
+}
+.carolfgap{
+    padding-left: 100%;
+}
+.leftrightbtn i{
+    width: 60px;
+    height: 60px;
+    color: black;
+    font-size: 80px;
+    border: 2px solid black;
+    padding-bottom: 80px;
+}
+.leftrightbtn{
+    margin-top: 35px;
+}
+
+       /* LAST 12 IMAGES */
+
+.lastimgcol3{
+    text-align: center;
+    padding-bottom: 8%;
+}
+.col3hover img:hover{
+    box-shadow: -1px 38px 28px -29px rgba(0,0,0,0.78);
+}
+.latimgcol1{
+    text-align: center;
+}
+.col1hover img:hover{
+    box-shadow: -1px 38px 28px -29px rgba(0,0,0,0.78);
+}
+.latimgcol2{
+    text-align: center;
+}
+.col2hover img:hover{
+    box-shadow: -1px 38px 28px -29px rgba(0,0,0,0.78);
+}
+.lastredline{
+    border-bottom: 4px solid red;
+}
+        /* GRAY DIV */
+
+.graydiv{
+    background-color: #e6e7e2;
+    display: flex;
+    height: 150px;
+}
+.graydivcont{
+    padding-top: 2%;
+    display: flex;
+    margin: auto;
+    gap: 3px;
+}
+.graydivcont p{
+    border: 1px solid transparent;
+    background-color: white;
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.btninputt i{
+    font-size: 25px;
+    border: 2px solid transparent;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+}
+.graydivcont i:hover{
+    color: black;
+}
+.btninputt input{
+    font-size: 14px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    border: none;
+}
+
+        /* FOOTER */
+        
+.footer{
+    display: flex;
+    height: 300px;
+}
+.footmain1{
+    display: flex;
+}
+.footsub1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 3%;
+    margin-left: 8%;
+}
+.dropdown1 span{
+    color: red;
+}
+.dropdown1{
+    width: fit-content;
+    border: 1px solid red;
+}
+.facwats{
+    padding-top: 13px;
+    gap: 5px;
+    display: flex;
+    width: 20%;
+}
+.facwats i{
+    width: 12%;
+    height: 18px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding-top: 2px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+}
+.email{
+    color: red;
+    padding-top: 10px;
+    font-size: 14px;
+}
+.number{
+    color: red;
+    padding-top: 10px;
+    width: 17%;
+    font-size: 14px;
+}
+.number i{
+    border: 1px solid red;
+    border-radius: 100%;
+    width: 15%;
+    text-align: center;
+}
+.footsub2{
+    width: 50%;
+    padding-top: 2%;
+    margin-left: 300px;
+}
+.lastsubmit button{
+    margin-top: 2%;
+    margin-left: 66%;
+    color: red;
+    border-color: red;
+}
+.namemobileemail input{
+    margin-bottom: 4%;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.namemobileemail p{
+    font-weight: bold;
+}
+.btnfeedback a{
+    width: 80%;
+    text-align: start;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
+    color: gray;
+}
+.footabout{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.footabout p{
+    height: 5px;
+}
+.footabout div{
+    margin-left: 30px;
+    border-left: 1px solid black;
+}
+.footabout p{
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+        /* MEDIA QUERY */
+
+@media (min-width:300px) and (max-width:576.98px){
+    .content{
+        width: 80%;
+        height: 30%;
+    }
+    .firstnav{
+        font-size: 9px;
+        display: inline;
+}
+   .rightnav i{
+        padding-top: 5px;
+        width: 20px;
+        height: 20px;
+        font-size: 100%;
+}
+    .caroselwidth div{
+        width: 70%;
+        margin: auto;
+}
+    .caroborder div{
+        font-weight: 500;
+        font-size: 12px;
+}
+.leftrightbtn i{
+    width: 40px;
+    font-size: 80px;
+}
+.graydivcont{
+    padding-top: 2%;
+    display: inline;
+    margin: auto;
+    gap: 3px;
+}
+.btninputt input{
+    width: 86.6%;
+    padding-top: 3%;
+}
+.footsub1{
+    display: inline;
+    margin-left: 20%;
+}
+.dropdown1{
+    display: flex;
+    width: fit-content;
+    border: 1px solid red;
+}
+.dropdown1 span{
+    margin-left: auto;
+    color: red;
+}
+.footer{
+    display: inline;
+}
+.footsub2{
+    width: 90%;
+    text-align: center;
+    padding-top: 470px;
+    margin-left: 7%;
+}
+.number{
+    width: 50%;
+    margin-left: 20%;
+}
+.email{
+    width: 50%;
+    margin-left: 12%;
+}
+.email span{
+    text-align: center;
+}
+.facwats{
+    width: 50%;
+    margin-left: 20%;
+}
+.facwats i{
+    width: 50%;
+}
+.footabout div{
+    text-align: center;
+    margin-left: 0px;
+    border-left: 0;
+}
+.lastsubmit button{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    color: red;
+    border-color: red;
+}
+}
+@media (min-width:577px) and (max-width:767.98px){
+    .content{
+        width: 80%;
+        height: 12%;
+    }
+    .firstnav{
+        font-size: 9px;
+        padding-top: 1px;
+        display: flex;
+}
+   .rightnav i{
+        padding-top: 5px;
+        width: 20px;
+        height: 20px;
+}
+.caroselwidth div{
+    width: 90%;
+    margin: auto;
+}
+.caroborder div{
+    font-weight: 600;
+    font-size: 15px;
+}
+.leftrightbtn i{
+width: 40px;
+font-size: 80px;
+}
+}
+@media (min-width:768px) and (max-width:991.98px){
+    .content{
+        width: 80%;
+        height: 1%;
+    }
+    .caroselwidth div{
+        width: 90%;
+        margin: auto;
+    }
+    .caroborder div{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .leftrightbtn i{
+    width: 40px;
+    font-size: 80px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    .content{
+        width: 80%;
+        height: 1%;
+    }
+    .secondnav img{
+        width: 40px;
+   }  
+   .secondcontent span{
+       margin: 15px;
+   } 
+   .caroselwidth div{
+    width: 80%;
+    margin: auto;
+}
+.caroborder div{
+    font-weight: 600;
+    font-size: 11px;
+}
+.leftrightbtn i{
+width: 50px;
+font-size: 70px;
+}
+.leftrightbtn{
+    margin-top: 30px;
+}
+.contry{
+    border: 1px solid red;
+    width: 32%;
+    height: 40px;
+}
+.contry span{
+    font-size: 10px;
+}
+.footsub1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 3%;
+    margin-left: 8%;
+}
+.dropdown1 span{
+    color: red;
+}
+.facwats{
+    padding-top: 10px;
+    gap: 5px;
+    display: flex;
+    width: 20%;
+}
+.facwats i{
+    width: 12%;
+    height: 12px;
+    text-align: center;
+    border: 1px solid transparent;
+    padding-top: 1px;
+    border-radius: 100%;
+    background-color: red;
+    color: white;
+    font-size: 8px;
+}
+.email{
+    color: red;
+    padding-top: 10px;
+    font-size: 10px;
+}
+.number{
+    color: red;
+    padding-top: 10px;
+    font-size: 10px;
+}
+.footsub2{
+    width: 50%;
+    padding-top: 2%;
+    margin-left: 300px;
+}
+.lastsubmit{
+    font-size: 10px;
+    margin-top: 2%;
+    margin-left: 48%;
+    width: 10%;
+    border: 1px solid red;
+    color: red;
+}
+.namemobileemail input{
+    margin-bottom: 4%;
+    width: 60%;
+    border: none;
+    font-size: 10px;
+    border-bottom: 1px solid black;
+}
+.namemobileemail p{
+    font-weight: bold;
+}
+.btnfeedback a{
+    width: 60%;
+    text-align: start;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: white;
+    color: gray;
+    font-size: 10px;
+}
+.footabout{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+.footabout p{
+    height: 1px;
+}
+.footabout div{
+    margin-left: 30px;
+    border-left: 1px solid black;
+}
+.footabout p{
+    padding-left: 5px;
+    font-weight: 400;
+    font-size: 8px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+.mostimage{
+    padding-top: 40px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}  
+.imgemost1{
+    position: relative;
+}
+.imgemost1:hover img{
+    filter: brightness(0.4);
+} 
+.mostimgcont1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 0;
+}
+.imgemost1:hover{
+    opacity: 1;
+}
+.imagemost2{
+    position: relative;
+}
+.mostimgcont2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 50%;
+    top: 24%;
+    text-align: center;
+    transform: translate(-50%,50%);
+}
+.imagemost3{
+    position: relative;
+}
+.mostimgcont3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 50%;
+    top: 37%;
+    margin-left: 48%;
+    transform: translate(-50%,-50%);
+}
+.imgborder{
+    border: 15px solid white;
+    justify-content: space-evenly;
+}
+.imgborder img{
+    width: 200px;
+}
+.mostimage img{
+    width: 90%;
+}
+.mostimage h1{
+    font-size: 20px;
+}
+.mostimage h2{
+    font-size: 19px;
+}
+.mostimage h3{
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+} */
